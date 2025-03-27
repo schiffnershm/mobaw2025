@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The HM Store Product Catalog</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>HM Store</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#" onclick="showContactInfo()">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <aside class="sidebar">
+            <h2>Filters</h2>
+            <label>
+                <input type="checkbox" name="category" value="electronics"> Electronics
+            </label>
+            <br/>
+            <label>
+                <input type="checkbox" name="category" value="clothing"> Clothing
+            </label>
+            <br/>
+            <label>
+                <input type="checkbox" name="category" value="home"> Home & Kitchen
+            </label>
+        </aside>
+
+        <section class="product-list">
+            <article class="product">
+                <img src="images/leather-pants.jpg" width="150" height="120" alt="Product 1">
+                <h3>Wiesn Outfit</h3>
+                <p>$19.99</p>
+                <button>Add to Cart</button>
+            </article>
+
+            <article class="product">
+                <img src="images/playstation.jpg" width="150" height="120" alt="Product 2">
+                <h3>Game Console</h3>
+                <p>$499.99</p>
+                <button>Add to Cart</button>
+            </article>
+
+            <article class="product">
+                <img src="images/mixer.jpg" width="150" height="120" alt="Product 3">
+                <h3>The Fancy Supermix</h3>
+                <p>$139.99</p>
+                <button>Add to Cart</button>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 HM Store. All rights reserved.</p>
+    </footer>
+</body>
+</html>
