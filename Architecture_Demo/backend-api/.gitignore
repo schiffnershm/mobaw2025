@@ -1,0 +1,42 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+.venv/
+.env/
+.env.*
+
+# VS Code settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# MacOS system files
+.DS_Store
+
+# Docker
+*.log
+
+# Unit test / coverage
+.coverage
+.pytest_cache/
+htmlcov/
+.cache/
+
+# Python packaging
+*.egg-info/
+dist/
+build/
+
+# Pipenv / Poetry
+Pipfile.lock
+poetry.lock
+
+# Editor backups
+*.swp
+*.bak
+*.tmp
